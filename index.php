@@ -18,13 +18,14 @@
 		<?php if(have_posts()) : ?>	
 			<?php while(have_posts()) : the_post() ?>
 			
-			<?php the_content(); ?>
-			
+				<div class="post_snippet">
+				<h2> <a href="<?php  the_permalink(); ?>" tittle="Permanent link to <?php the_title_attribute(); ?>"> <?php the_title(); ?> </a> </h2>
+				<?php the_content(); ?>
+				</div>
+				
 			<?php endwhile; ?>
-			<?php endif; ?>
-			
+			<?php endif; ?>	
 			<!-- END CONTENT -->	
-		
 		</div> <!-- End Header -->
 		
 	
