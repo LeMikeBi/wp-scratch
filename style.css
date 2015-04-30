@@ -16,3 +16,11 @@ Tags: boring, dull, void of life
 #header {
 	text-align:center;
 }
+
+.post_snippet {
+	border: 2px solid #ccc;
+	margin: 40px 0px;
+	padding: 20px;
+	border-radius: 10px 10px 10px 0px;
+	overflow: scroll;
+}
